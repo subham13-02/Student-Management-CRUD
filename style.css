@@ -1,0 +1,71 @@
+*{
+  background-color: black;
+  color:white;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+p{
+  font-size: 30px;
+  margin-left: 20px;
+}
+form {
+  display:flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap:20px;
+}
+
+input{
+  background-color: transparent;
+  padding:10px 20px;
+  width:28%;
+  border: 1px solid white;
+}
+input:focus{
+ 
+  outline:2px solid rgb(13,153,255) ;
+  border:none;
+}
+
+
+form>button {
+  background-color: white;
+  color: black;
+  padding: 8px;
+  width:45%;
+  cursor: pointer;
+  border:none;
+}
+button:hover {
+  outline:2px solid rgb(13,153,255) ;
+}
+
+table th,table td{
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+#search-input{
+  margin: 20px;
+  width:90%;
+}
+table {
+  margin: 20px;
+  border-collapse: collapse;
+  width: 93%;
+}
+
+.degree-table{
+  display: flex;
+  justify-content: space-between;
+}
+div{
+  display: flex;
+  justify-content: space-between;
+  gap:5px;
+}
+
+
